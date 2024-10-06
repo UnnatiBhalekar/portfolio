@@ -1,29 +1,20 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
+    "role": "Software Engineer - II",
+    "organisation": "UST",
+    "startDate": "Jul, 2022",
+    "endDate": "Jul 2024",
+    "experiences": ["Frontend development using Angular.", 
+    "Developed REST APIs for microservices integration.", "Implemented Power BI for data visualization and reporting"],
+    "imageSrc": "history/wxp1.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
-    "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
-    ],
-    "imageSrc": "history/netflix.png"
+    "role": "Performance Testing Intern",
+    "organisation": "Wolters Kluwer",
+    "startDate": "Feb, 2022",
+    "endDate": "Jul, 2022",
+    "experiences": ["Assessed system response times using LoadRunner", "Developed a performance testing plan to resolve key issues", 
+    "Performed load testing to identify and fix bottlenecks"],
+    "imageSrc": "history/wxp2.png"
   }
 ]

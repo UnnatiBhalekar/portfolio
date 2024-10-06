@@ -15,37 +15,35 @@ export const About = () => {
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img className={styles.briefcase} src={getImageUrl("about/icons8-briefcase-50.png")} alt="Briefcase icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3 className={styles.expText}>Experience</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                2+ years <br></br>Full-Stack Development
+              </p>
+              <p>
+                
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img className={styles.cap} src={getImageUrl("about/input-onlinepngtools.png")} alt="Graduation icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Education</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+              M.Sc. Computing Secure Software Engineering(current)<br></br>
+              B.E. Computer Engineering
               </p>
             </div>
           </li>
         </ul>
       </div>
+      <p className={styles.desc}>
+        Postgraduate Student in Computing at Dublin City University with an anticipated 2.1 grade, 
+        2+ years of software development experience. Experience in Java, Spring Boot, API Development, Unit Testing, 
+        and Angular. Strong problem-solving abilities and effectively collaborated with cross-functional teams. 
+        Currently expanding expertise in Secure Software Development and ready to contribute to impactful software development projects.
+        </p>
     </section>
   );
 };

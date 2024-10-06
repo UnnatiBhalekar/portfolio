@@ -32,14 +32,16 @@
 .aboutItems {
   color: var(--color-text);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 50px;
 }
 
 .aboutItem {
   display: flex;
-  flex-direction: row;
+  flex-direction: column; /* Stacking vertically */
   align-items: center;
+  justify-content: center;
+  text-align: center; /* Center text horizontally */
   border-radius: 20px;
   list-style: none;
   padding: 25px;
@@ -53,6 +55,12 @@
   transition: 0.4s;
 }
 
+.aboutItem img {
+  margin-bottom: 15px; /* Space between icon and text */
+  width: 50px; /* Adjust size of icons */
+  height: 50px;
+}
+
 .aboutItem:hover {
   background-size: 100% 100%;
 }
@@ -60,10 +68,16 @@
 .aboutItem h3 {
   font-size: 25px;
   font-weight: 600;
+  margin: 10px 0 5px 0; /* Add space between title and description */
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: 18px; /* Slightly reduce font size for the paragraph */
+}
+
+.desc{
+  display: flex;
+  color: var(--color-text);
 }
 
 @media screen and (max-width: 830px) {
@@ -83,10 +97,13 @@
 
   .aboutItems {
     margin-top: 29px;
+    flex-direction: column; /* Stack the items vertically */
+    gap: 20px; /* Reduce the gap for smaller screens */
   }
 
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+    width: 100%; /* Ensure full width on mobile */
   }
 }
